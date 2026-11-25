@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Problem with Crowbar itself (not dark mode)
+    url: https://steamcommunity.com/groups/CrowbarTool
+    about: This fork only adds dark mode to Crowbar 0.74. Report any other Crowbar problem to the official project.

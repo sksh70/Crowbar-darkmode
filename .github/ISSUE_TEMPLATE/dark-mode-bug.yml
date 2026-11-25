@@ -1,0 +1,26 @@
+name: Dark mode bug
+description: Something looks wrong or broken in dark mode in this build (v0.74.1).
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a personal build. Only dark mode bugs in v0.74.1 are accepted.
+        Other Crowbar issues, feature requests and other or future Crowbar versions are not supported.
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong?
+      description: Which tab or window, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Paste a screenshot if you can.
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: e.g. Windows 11 23H2
